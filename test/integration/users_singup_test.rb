@@ -8,6 +8,8 @@ class UsersSingupTest < ActionDispatch::IntegrationTest
       post users_path, user: { name: "Tim", email: "tim@post.com",
                               password: "pass123", password_confirmation: "pass123"}
     end
+
+    assert is_logged_in?
   end
 
   test "invalind signup data" do

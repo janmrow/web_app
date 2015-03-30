@@ -1,9 +1,6 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# a fixture with a valid user 
 
-one:
-  name: MyString
-  email: MyString
-
-two:
-  name: MyString
-  email: MyString
+john:
+  name: John Test
+  email: john@test.com
+  password_digest: <%= User.digest('pass123') %>
