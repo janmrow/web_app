@@ -1,7 +1,10 @@
-A simple webb app in RUby on Rails.
+My own pet project. I is a simple webb app.
+
 You can:
 - sign up
 - log in
 - log out
 
-Test are in /test folder
+There are simpele user permissions.
+
+Test are in /test folder.
